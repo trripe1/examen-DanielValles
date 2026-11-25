@@ -11,7 +11,7 @@ public class Main {
         flota.add(new Furgoneta("5678DEF", 60));
 
         int dias = 3;
-        double total = 0;
+        int dias = 7;
         for (Vehiculo v : flota) {
             double precio = v.precioAlquiler(dias);
             System.out.printf("%s: %.2f €%n", v, precio);
