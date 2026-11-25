@@ -6,6 +6,10 @@ public class Coche extends Vehiculo {
 
     @Override
     public double precioAlquiler(int dias) {
-        return dias * getPrecioDia();
+        double precio = dias * getPrecioDia();
+        if (dias >= 7 ){
+            precio = precio * 0.9;
+        }
+        return precio;
     }
 }
