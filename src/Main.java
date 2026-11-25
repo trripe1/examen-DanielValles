@@ -9,6 +9,7 @@ public class Main {
         List<Vehiculo> flota = new ArrayList<>();
         flota.add(new Coche("1234ABC", 40));
         flota.add(new Furgoneta("5678DEF", 60));
+        flota.add(new Moto("9012GHI", 25));
 
         int dias = 3;
         double total = 0;
